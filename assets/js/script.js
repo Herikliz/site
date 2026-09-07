@@ -1098,8 +1098,8 @@ function verificarTrabalho() {
     let textarea = document.getElementById('info-sceneText');
     let tiposFeitos = Array.from(document.querySelectorAll('.tipo-feito:checked')).map(cb => cb.value);
 
-    let reqPontos = { "1": 1000, "2": 2500, "3": 5000, "4": 15000 };
-    let reqPontosFormatados = { "1": "1.000", "2": "2.500", "3": "5.000", "4": "15.000" };
+    let reqPontos = { "1": 10000, "2": 15000, "3": 25000, "4": 35000 };
+    let reqPontosFormatados = { "1": "10.000", "2": "15.000", "3": "25.000", "4": "35.000" };
 
     let palavraPonto = pontos === 1 ? "ponto" : "pontos";
 
@@ -3557,7 +3557,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             let pontosNpc = Math.floor(valorBase / 2);
             if (check40k.checked && (checkHaki.checked || checkAkuma.checked)) {
-                textoFinal += "\nPontos Recebidos pelos NPCs Especiais: " + formatarNum(pontosNpc);
+                textoFinal += "\nPontos Recebidos pelos NPCs Especiais que você já tinha ANTES dessa Extra: " + formatarNum(pontosNpc);
             }
 
             textoFinal += "\u0060\u0060\u0060";
@@ -3569,8 +3569,8 @@ document.addEventListener('DOMContentLoaded', () => {
             let valor = this.value.replace(/\D/g, '');
             if (valor !== '') {
                 let numero = parseInt(valor, 10);
-                if (numero > 2000) {
-                    numero = 2000;
+                if (numero > 3000) {
+                    numero = 3000;
                 }
                 this.value = formatarNum(numero);
             }
@@ -5606,6 +5606,7 @@ window.donosDeAkuma = {
     "Gocha Gocha no Mi": "Panela",
     "Gomu Gomu no Mi": "Edward T. Bennett",
     "Gura Gura no Mi": "Sakazuki Itadori",
+    "Hana Hana no Mi": "Bloqueada",
     "Hebi Hebi no Mi, Modelo: Kaijū [Original do RPG]": "Raidjinn Le Laufey",
     "Hemo Hemo no Mi": "Sakazuki Choso",
     "Hie Hie no Mi": "Astarion D. Emiri",
@@ -5617,6 +5618,7 @@ window.donosDeAkuma = {
     "Horo Horo no Mi": "???",
     "Inu Inu no Mi, Modelo: Cérbero [Original do RPG]": "Dante Salvatore",
     "Inu Inu no Mi, Modelo: Ōkuchi no Makami": "Yuu D'Couteau",
+    "Ito Ito no Mi": "Thaddeus Vanderwood",
     "Kage Kage no Mi": "Noctis",
     "Kobu Kobu no Mi": "???",
     "Kumo Kumo no Mi": "Caelus",
@@ -5645,6 +5647,7 @@ window.donosDeAkuma = {
     "Suji Suji no Mi": "???",
     "Suke Suke no Mi": "Kamish",
     "Suna Suna no Mi": "BladeHawk",
+    "Supa Supa no Mi": "Ari",
     "Susu Susu no Mi": "Iori",
     "Toki Toki no Mi": "🔒FRUTA PERDIDA PELO MUNDO🔒",
     "Tori Tori no Mi, Modelo: Pássaro de Cinzas [Original do RPG]": "Genma Gan",

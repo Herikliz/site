@@ -22,13 +22,13 @@
 
             <section class="content-section intro-text">
                 <p style="margin-bottom: 15px; text-align: center; font-size: 1.1em; line-height: 1.6;">Você tem direito a fazer um único trabalho na semana. Cada trabalho deve seguir a quantidade fixa de caracteres. Quando for fazer um trabalho, especifique o tipo e a profissão.</p>
-                <p style="margin-bottom: 15px; text-align: center; font-size: 1.1em; line-height: 1.6; font-weight: bold; color: var(--accent-color);">São permitidos no máximo 3 trabalhos no mês, sem repetir o mesmo tipo.</p>
+                <p style="margin-bottom: 15px; text-align: center; font-size: 1.1em; line-height: 1.6; font-weight: bold; color: var(--accent-color);">São permitidos no máximo 4 trabalhos no mês, sem repetir o mesmo tipo.</p>
                 
                 <div style="background-color: rgba(0,0,0,0.05); border-left: 4px solid var(--accent-color); padding: 15px; border-radius: 4px; margin-top: 20px; margin-bottom: 20px;">
-                    <p style="line-height: 1.6;"><strong>Exemplo:</strong> No início do mês, você fez um Trabalho Tipo 1; isso obviamente significa que, nesse mês, você já tem um Trabalho Tipo 1 feito, então se você for fazer outro trabalho na próxima semana, deverá ser um Trabalho Tipo 2 ou Trabalho Tipo 3, pois não poderá mais repetir um Trabalho Tipo 1 nesse mês.</p>
+                    <p style="line-height: 1.6;"><strong>Exemplo:</strong> No início do mês, você fez um Trabalho Tipo 1; isso obviamente significa que, nesse mês, você já tem um Trabalho Tipo 1 feito, então se você for fazer outro trabalho na próxima semana, deverá ser um Trabalho Tipo 2, Trabalho Tipo 3 ou Trabalho Tipo 4, pois não poderá mais repetir um Trabalho Tipo 1 nesse mês.</p>
                 </div>
 
-                <p style="margin-bottom: 15px; text-align: center; font-size: 1.1em; line-height: 1.6; color: var(--accent-color);"><strong>Atenção:</strong> As descrições listadas abaixo em cada classe são apenas <strong>exemplos</strong> de como conduzir a narrativa. Sinta-se livre para criar situações diferentes, desde que respeitem a essência, a dificuldade, a escala de cada Nível (Tipo) e os requisitos da sua profissão.</p>
+                <p style="margin-bottom: 15px; text-align: center; font-size: 1.1em; line-height: 1.6; color: var(--accent-color);"><strong>Atenção:</strong> As descrições listadas abaixo em cada classe são apenas <strong>exemplos</strong> de como conduzir a narrativa. Sinta-se livre para criar situações diferentes, desde que respeitem a essência, a dificuldade, a escala de cada Tipo e os requisitos da sua profissão.</p>
             </section>
 
             <section class="content-section">
@@ -53,10 +53,10 @@
                     <div class="input-group">
                         <label>Tipo Desejado</label>
                         <select id="tipo-desejado" onchange="verificarTrabalho()">
-                            <option value="1">Trabalho Tipo 1 (1.000 pontos)</option>
-                            <option value="2">Trabalho Tipo 2 (2.500 pontos)</option>
-                            <option value="3">Trabalho Tipo 3 (5.000 pontos)</option>
-                            <option value="4">Trabalho Tipo 4 (15.000 pontos)</option>
+                            <option value="1">Trabalho Tipo 1 (10.000 pontos)</option>
+                            <option value="2">Trabalho Tipo 2 (15.000 pontos)</option>
+                            <option value="3">Trabalho Tipo 3 (25.000 pontos)</option>
+                            <option value="4">Trabalho Tipo 4 (35.000 pontos)</option>
                         </select>
                     </div>
                     
@@ -88,8 +88,6 @@
                         <h3>Tipo 1</h3>
                         <p>Explorar pequenas ruínas locais ou traduzir artefatos comuns encontrados por mercadores para entender sua origem e utilidade básica.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 1.000 pontos de atributos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.200.</li>
                             <li><strong>Recompensa:</strong> ฿30.000.000.</li>
                         </ul>
                     </div>
@@ -97,8 +95,6 @@
                         <h3>Tipo 2</h3>
                         <p>Participar de escavações em tumbas antigas, desvendando enigmas menores, catalogando relíquias e entregando-as a museus ou colecionadores.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 2.500 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.800.</li>
                             <li><strong>Recompensa:</strong> ฿60.000.000.</li>
                         </ul>
                     </div>
@@ -106,8 +102,6 @@
                         <h3>Tipo 3</h3>
                         <p>Liderar uma expedição para o interior de um templo milenar protegido por armadilhas mortais, decifrando uma língua morta que esconde grandes segredos e desarmando defesas antigas.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 5.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 3.000.</li>
                             <li><strong>Recompensa:</strong> ฿100.000.000.</li>
                         </ul>
                     </div>
@@ -115,8 +109,6 @@
                         <h3>Tipo 4</h3>
                         <p>Liderar uma escavação extensa em uma ruína perigosa e inexplorada de extrema letalidade, decifrando múltiplos textos antigos complexos, desarmando sistemas de defesa intrincados e recuperando uma coleção de artefatos de altíssimo valor histórico e monetário para um grande museu ou comprador bilionário.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 15.000 pontos de atributos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 9.000.</li>
                             <li><strong>Recompensa:</strong> ฿350.000.000.</li>
                         </ul>
                     </div>
@@ -130,8 +122,6 @@
                         <h3>Tipo 1</h3>
                         <p>Criar e vender artes em uma bancada própria pela cidade, criando retratos ou performances de rua usando materiais comuns.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 1.000 pontos de atributos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.200.</li>
                             <li><strong>Recompensa:</strong> ฿30.000.000.</li>
                         </ul>
                     </div>
@@ -139,8 +129,6 @@
                         <h3>Tipo 2</h3>
                         <p>Fazer trabalhos por encomenda, como pintar quadros grandes, criar esculturas de diversos materiais para clientes específicos, além de escrever poemas ou atuar em papéis comissionados.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 2.500 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.800.</li>
                             <li><strong>Recompensa:</strong> ฿60.000.000.</li>
                         </ul>
                     </div>
@@ -148,8 +136,6 @@
                         <h3>Tipo 3</h3>
                         <p>Criar obras de arte de alta qualidade ou espetáculos profundos para galerias e teatros renomados, transmitindo mensagens culturais que encantem a elite da ilha.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 5.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 3.000.</li>
                             <li><strong>Recompensa:</strong> ฿100.000.000.</li>
                         </ul>
                     </div>
@@ -157,8 +143,6 @@
                         <h3>Tipo 4</h3>
                         <p>Criar uma exposição de arte completa, uma peça de teatro principal com dezenas de figurantes, ou uma escultura imensa e extremamente detalhada sob encomenda para a nobreza ou para o salão principal de um resort luxuoso, exigindo semanas de dedicação e pura perfeição técnica em cada detalhe.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 15.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 9.000.</li>
                             <li><strong>Recompensa:</strong> ฿350.000.000.</li>
                         </ul>
                     </div>
@@ -172,8 +156,6 @@
                         <h3>Tipo 1</h3>
                         <p>Atuar como vigia de um armazém ou barco, neutralizando pequenas ameaças a distância de forma discreta antes que se aproximem do cliente.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 1.000 pontos de atributos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.200.</li>
                             <li><strong>Recompensa:</strong> ฿30.000.000.</li>
                         </ul>
                     </div>
@@ -181,8 +163,6 @@
                         <h3>Tipo 2</h3>
                         <p>Fazer a escolta tática de uma caravana ou família influente, posicionando-se em pontos altos para garantir uma rota segura contra bandidos e emboscadas.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 2.500 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.800.</li>
                             <li><strong>Recompensa:</strong> ฿60.000.000.</li>
                         </ul>
                     </div>
@@ -190,8 +170,6 @@
                         <h3>Tipo 3</h3>
                         <p>Ser contratado como atirador de elite para proteção de alvos VIP ou atuar furtivamente em um evento aberto, monitorando e lidando com atiradores rivais antes de serem notados.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 5.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 3.000.</li>
                             <li><strong>Recompensa:</strong> ฿100.000.000.</li>
                         </ul>
                     </div>
@@ -199,8 +177,6 @@
                         <h3>Tipo 4</h3>
                         <p>Coordenar e executar a segurança perimetral completa e de longa distância de um evento de alto padrão (como um leilão no submundo ou encontro de magnatas). O atirador deverá monitorar ângulos complexos, calcular ventos fortes e neutralizar silenciosamente ameaças múltiplas e bem treinadas simultaneamente, garantindo que ninguém sequer chegue perto do perímetro.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 15.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 9.000.</li>
                             <li><strong>Recompensa:</strong> ฿350.000.000.</li>
                         </ul>
                     </div>
@@ -214,8 +190,6 @@
                         <h3>Tipo 1</h3>
                         <p>Fazer reparos no casco de pequenos barcos, calafetagem de embarcações menores e vender projetos ou protótipos de barcos básicos.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 1.000 pontos de atributos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.200.</li>
                             <li><strong>Recompensa:</strong> ฿30.000.000.</li>
                         </ul>
                     </div>
@@ -223,8 +197,6 @@
                         <h3>Tipo 2</h3>
                         <p>Fazer trabalhos de carpintaria navais sob encomenda, como consertar mastros quebrados ou construir e vender navios de médio porte como Caravelas.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 2.500 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.800.</li>
                             <li><strong>Recompensa:</strong> ฿60.000.000.</li>
                         </ul>
                     </div>
@@ -232,8 +204,6 @@
                         <h3>Tipo 3</h3>
                         <p>Assumir a construção de navios de grande porte, como Galeões, comandando equipes de estaleiros para instalar reforços estruturais e canhões para frotas e organizações.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 5.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 3.000.</li>
                             <li><strong>Recompensa:</strong> ฿100.000.000.</li>
                         </ul>
                     </div>
@@ -241,8 +211,6 @@
                         <h3>Tipo 4</h3>
                         <p>Construir, reforçar e personalizar uma embarcação de grande porte com modificações estruturais precisas para um cliente milionário. O trabalho exige a utilização de madeiras difíceis de se manusear e de altíssima qualidade, desenhando os alicerces perfeitos para suportar e ignorar completamente o desgaste de viagens intensas e anomalias climáticas severas, entregando um navio inabalável.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 15.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 9.000.</li>
                             <li><strong>Recompensa:</strong> ฿350.000.000.</li>
                         </ul>
                     </div>
@@ -256,8 +224,6 @@
                         <h3>Tipo 1</h3>
                         <p>Produzir compostos químicos simples, como pós repelentes, fertilizantes básicos ou baterias rústicas para auxiliar civis ou comércios menores.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 1.000 pontos de atributos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.200.</li>
                             <li><strong>Recompensa:</strong> ฿30.000.000.</li>
                         </ul>
                     </div>
@@ -265,8 +231,6 @@
                         <h3>Tipo 2</h3>
                         <p>Desenvolver em laboratório soluções eficientes como toxinas incapacitantes, combustíveis aperfeiçoados ou modificações em pólvora, realizando testes experimentais com sucesso.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 2.500 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.800.</li>
                             <li><strong>Recompensa:</strong> ฿60.000.000.</li>
                         </ul>
                     </div>
@@ -274,8 +238,6 @@
                         <h3>Tipo 3</h3>
                         <p>Criar tecnologia avançada, como o desenvolvimento de armas de energia rudimentares ou drogas de aprimoramento físico limitadas, controlando as reações instáveis do laboratório.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 5.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 3.000.</li>
                             <li><strong>Recompensa:</strong> ฿100.000.000.</li>
                         </ul>
                     </div>
@@ -283,8 +245,6 @@
                         <h3>Tipo 4</h3>
                         <p>Desenvolver um composto químico altamente complexo (como um gás neutralizador de zonas), um antídoto para uma toxina muito rara, ou a formulação de um polímero super-resistente a partir do zero. A criação exige dias de dedicação, mistura de reagentes perigosos sob temperatura extrema e a comprovação impecável do produto em testes de estresse em laboratório.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 15.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 9.000.</li>
                             <li><strong>Recompensa:</strong> ฿350.000.000.</li>
                         </ul>
                     </div>
@@ -298,8 +258,6 @@
                         <h3>Tipo 1</h3>
                         <p>Trabalhar como segurança de uma taverna ou de um estabelecimento, agindo como apaziguador e quebrando a cara de pequenos arruaceiros locais.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 1.000 pontos de atributos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.200.</li>
                             <li><strong>Recompensa:</strong> ฿30.000.000.</li>
                         </ul>
                     </div>
@@ -307,8 +265,6 @@
                         <h3>Tipo 2</h3>
                         <p>Organizar e treinar taticamente a guarda local de uma vila, participando da linha de frente para afastar e subjugar gangues mercenárias ou pequenos bandos.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 2.500 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.800.</li>
                             <li><strong>Recompensa:</strong> ฿60.000.000.</li>
                         </ul>
                     </div>
@@ -316,8 +272,6 @@
                         <h3>Tipo 3</h3>
                         <p>Comandar um esquadrão de guardas ou estar à frente da segurança de um ponto vital, dando ordens e vencendo pela força bruta e estratégia os agressores do lado oponente.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 5.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 3.000.</li>
                             <li><strong>Recompensa:</strong> ฿100.000.000.</li>
                         </ul>
                     </div>
@@ -325,8 +279,6 @@
                         <h3>Tipo 4</h3>
                         <p>Atuar como o guarda-costas principal ou capitão da guarda de uma operação de transporte de carga ou pessoa extremamente valiosa. O guerreiro deverá varrer inimigos com golpes esmagadores, proteger a integridade absoluta da carga e rechaçar com ferocidade os ataques coordenados de bandos experientes ou assassinos muito bem treinados durante todo o trajeto.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 15.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 9.000.</li>
                             <li><strong>Recompensa:</strong> ฿350.000.000.</li>
                         </ul>
                     </div>
@@ -340,8 +292,6 @@
                         <h3>Tipo 1</h3>
                         <p>Preparar refeições diárias e fartas para os tripulantes do seu navio ou atuar como auxiliar vital nos preparos rápidos de um restaurante movimentado.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 1.000 pontos de atributos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.200.</li>
                             <li><strong>Recompensa:</strong> ฿30.000.000.</li>
                         </ul>
                     </div>
@@ -349,8 +299,6 @@
                         <h3>Tipo 2</h3>
                         <p>Tratar, limpar e cozinhar partes de bestas, como monstros marinhos ou ingredientes levemente difíceis de manusear, conseguindo extrair o sabor correto para criar um prato requintado e caro.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 2.500 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.800.</li>
                             <li><strong>Recompensa:</strong> ฿60.000.000.</li>
                         </ul>
                     </div>
@@ -358,8 +306,6 @@
                         <h3>Tipo 3</h3>
                         <p>Assumir o cargo de Chefe em um grande estabelecimento, unindo especiarias exóticas e exatidão no fogo para criar pratos deliciosos e perfeitamente equilibrados para clientes abastados.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 5.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 3.000.</li>
                             <li><strong>Recompensa:</strong> ฿100.000.000.</li>
                         </ul>
                     </div>
@@ -367,8 +313,6 @@
                         <h3>Tipo 4</h3>
                         <p>Atuar como Chef Executivo na preparação de um banquete de gala em um hotel de luxo para centenas de convidados exigentes. Controlar o fluxo e temperos precisos de dezenas de fornos e estações simultaneamente, limpando frutos do mar perigosos perfeitamente e servindo dezenas de pratos harmonizados sem um único erro, garantindo a satisfação absoluta de todo o salão.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 15.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 9.000.</li>
                             <li><strong>Recompensa:</strong> ฿350.000.000.</li>
                         </ul>
                     </div>
@@ -382,8 +326,6 @@
                         <h3>Tipo 1</h3>
                         <p>Forjar lâminas curtas, facões, pregos, ferramentas de manutenção e reparar o desgaste e arranhões básicos em espadas ou armaduras ferrujadas.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 1.000 pontos de atributos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.200.</li>
                             <li><strong>Recompensa:</strong> ฿30.000.000.</li>
                         </ul>
                     </div>
@@ -391,8 +333,6 @@
                         <h3>Tipo 2</h3>
                         <p>Fabricar armas padronizadas de excelente corte e cotas de malha muito resistentes para corporações e guerreiros locais, manipulando fundição clássica de minérios.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 2.500 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.800.</li>
                             <li><strong>Recompensa:</strong> ฿60.000.000.</li>
                         </ul>
                     </div>
@@ -400,8 +340,6 @@
                         <h3>Tipo 3</h3>
                         <p>Utilizar forjas muito quentes e minérios mais resistentes para criar armas personalizadas, dobrando o aço repetidas vezes e aplicando técnicas de esfriamento para garantir uma lâmina (ou placa) superior.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 5.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 3.000.</li>
                             <li><strong>Recompensa:</strong> ฿100.000.000.</li>
                         </ul>
                     </div>
@@ -409,8 +347,6 @@
                         <h3>Tipo 4</h3>
                         <p>Forjar uma arma ou conjunto de armadura feito inteiramente sob medida, digna dos mares mais fortes (como uma Espada de Grau Ryou Wazamono ou O Wazamono). Requer dominar completamente a bigorna com precisão sobre-humana, manipulando o carbono do aço ou ligas de metal difíceis para criar um equipamento duradouro, perfeitamente balanceado, afiado e letal para um guerreiro de alto renome.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 15.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 9.000.</li>
                             <li><strong>Recompensa:</strong> ฿350.000.000.</li>
                         </ul>
                     </div>
@@ -424,8 +360,6 @@
                         <h3>Tipo 1</h3>
                         <p>Montar ganchos retráteis, óculos ajustáveis, relógios a engrenagem ou sistemas de iluminação minúsculos, projetando pequenos gadgets focados em facilidades diárias.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 1.000 pontos de atributos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.200.</li>
                             <li><strong>Recompensa:</strong> ฿30.000.000.</li>
                         </ul>
                     </div>
@@ -433,8 +367,6 @@
                         <h3>Tipo 2</h3>
                         <p>Construir veículos leves terrestres ou pequenos aquáticos (como Wave Wavers) ou criar guindastes e polias a vapor que agilizem o trabalho de mercadores no porto.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 2.500 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.800.</li>
                             <li><strong>Recompensa:</strong> ฿60.000.000.</li>
                         </ul>
                     </div>
@@ -442,8 +374,6 @@
                         <h3>Tipo 3</h3>
                         <p>Projetar sistemas de armamento, asas portáteis a jato funcionais, comunicadores encriptados para a máfia/marinha ou instalar portas automatizadas com biometria rudimentar.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 5.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 3.000.</li>
                             <li><strong>Recompensa:</strong> ฿100.000.000.</li>
                         </ul>
                     </div>
@@ -451,8 +381,6 @@
                         <h3>Tipo 4</h3>
                         <p>Desenvolver e instalar um sistema mecânico ou utilitário altamente avançado em uma base ou embarcação de grande porte. Projetar o encanamento a vapor para gerar uma zona de propulsão, criar um sistema de defesa automatizado leve ou maquinários de locomoção e esteiras acoplados nas paredes. O processo deve contar com a integração fluida, medição de pressão e encaixe de milhares de engrenagens.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 15.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 9.000.</li>
                             <li><strong>Recompensa:</strong> ฿350.000.000.</li>
                         </ul>
                     </div>
@@ -466,8 +394,6 @@
                         <h3>Tipo 1</h3>
                         <p>Atender civis em vilarejos, fazendo torniquetes, desinfecções simples, extraindo febres e diagnosticando males do dia-a-dia de marinheiros e locais.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 1.000 pontos de atributos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.200.</li>
                             <li><strong>Recompensa:</strong> ฿30.000.000.</li>
                         </ul>
                     </div>
@@ -475,8 +401,6 @@
                         <h3>Tipo 2</h3>
                         <p>Extrair balas em pequenas cirurgias rápidas, manipular ervas em pomadas para curar queimaduras ou realizar transfusões de sangue emergenciais nos leitos.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 2.500 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.800.</li>
                             <li><strong>Recompensa:</strong> ฿60.000.000.</li>
                         </ul>
                     </div>
@@ -484,8 +408,6 @@
                         <h3>Tipo 3</h3>
                         <p>Trabalhar na sala de cirurgia de casos graves: amputações limpas, sutura de órgãos ou a administração precisa de anestésicos e antibióticos fortes sob muita pressão na ala de um hospital.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 5.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 3.000.</li>
                             <li><strong>Recompensa:</strong> ฿100.000.000.</li>
                         </ul>
                     </div>
@@ -493,8 +415,6 @@
                         <h3>Tipo 4</h3>
                         <p>Realizar uma cirurgia de altíssimo risco e de longa duração em um paciente abastado com múltiplos traumas quase fatais, ou contendo uma doença severa e invasiva em estágios críticos. A operação exige pulso firme absoluto, precisão milimétrica com o bisturi em veias próximas ao coração, profundo conhecimento de anatomia e dosagem perfeita de drogas de ressuscitação sem chance para o menor deslize.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 15.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 9.000.</li>
                             <li><strong>Recompensa:</strong> ฿350.000.000.</li>
                         </ul>
                     </div>
@@ -508,8 +428,6 @@
                         <h3>Tipo 1</h3>
                         <p>Animar as docas e tavernas tocando violão ou saxofone com cantigas animadas sobre o mar, atraindo viajantes cansados e recebendo pelo entretenimento.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 1.000 pontos de atributos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.200.</li>
                             <li><strong>Recompensa:</strong> ฿30.000.000.</li>
                         </ul>
                     </div>
@@ -517,8 +435,6 @@
                         <h3>Tipo 2</h3>
                         <p>Tocar em um espetáculo de restaurante chique, criando um ambiente relaxante e bem arranjado que aumenta as gorjetas e o movimento da casa.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 2.500 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.800.</li>
                             <li><strong>Recompensa:</strong> ฿60.000.000.</li>
                         </ul>
                     </div>
@@ -526,8 +442,6 @@
                         <h3>Tipo 3</h3>
                         <p>Dar um show próprio em um bar de grande porte com uma banda formada, ganhando o público do início ao fim e mantendo uma energia alta com vocais potentes e solos impressionantes.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 5.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 3.000.</li>
                             <li><strong>Recompensa:</strong> ฿100.000.000.</li>
                         </ul>
                     </div>
@@ -535,8 +449,6 @@
                         <h3>Tipo 4</h3>
                         <p>Realizar uma apresentação principal de alto calibre em um teatro conceituado do governo/nobreza ou em um grande festival a céu aberto. O músico deve compor e executar um show completo que demande domínio magistral dos instrumentos e vocais incansáveis, mantendo uma plateia imensa completamente imersa, animada e aplaudindo ensandecidamente do começo ao fim da noite.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 15.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 9.000.</li>
                             <li><strong>Recompensa:</strong> ฿350.000.000.</li>
                         </ul>
                     </div>
@@ -550,8 +462,6 @@
                         <h3>Tipo 1</h3>
                         <p>Traçar e guiar uma rota curta, administrando as velas e o leme para transportar suprimentos e mercadorias comerciais entre ilhas vizinhas de forma eficiente e pontual.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 1.000 pontos de atributos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.200.</li>
                             <li><strong>Recompensa:</strong> ฿30.000.000.</li>
                         </ul>
                     </div>
@@ -559,8 +469,6 @@
                         <h3>Tipo 2</h3>
                         <p>Navegar a embarcação sob ventos fortes e climas adversos, utilizando mapas ou instrumentos náuticos em conjunto com instintos apurados para desviar de rochedos escondidos e garantir uma viagem segura.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 2.500 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 1.800.</li>
                             <li><strong>Recompensa:</strong> ฿60.000.000.</li>
                         </ul>
                     </div>
@@ -568,8 +476,6 @@
                         <h3>Tipo 3</h3>
                         <p>Conduzir um navio turístico ou cargueiro entre correntes traiçoeiras e mudanças bruscas de clima constantes, dando ordens precisas à tripulação e evitando taticamente encontros com monstros marinhos e fenômenos letais.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 5.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 3.000.</li>
                             <li><strong>Recompensa:</strong> ฿100.000.000.</li>
                         </ul>
                     </div>
@@ -577,8 +483,6 @@
                         <h3>Tipo 4</h3>
                         <p>Traçar e guiar uma embarcação comercial ou militar de porte alto por rotas marítimas extremamente traiçoeiras e instáveis. Exige o uso constante de concentração focada, manobras abruptas contra maremotos, chuvas letais ou mares em ebulição contínua. O navegador deve utilizar seu intelecto apurado sobre anomalias extremas para garantir a chegada segura e pontual de toda a carga milionária e dos passageiros, sem arranhar o navio.</p>
                         <ul>
-                            <li><strong>Requisitos:</strong> 15.000 pontos.</li>
-                            <li><strong>Mínimo de caracteres:</strong> 9.000.</li>
                             <li><strong>Recompensa:</strong> ฿350.000.000.</li>
                         </ul>
                     </div>
